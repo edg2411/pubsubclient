@@ -13,5 +13,5 @@ idf_component_register(
 
     # Define the component's dependencies.
     # This ensures the 'arduino' component is available and linked.
-    REQUIRES arduino
+    REQUIRES arduino-esp32
 )
